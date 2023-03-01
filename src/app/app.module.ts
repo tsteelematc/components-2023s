@@ -11,6 +11,9 @@ import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { SwTeamCheckComponent } from './sw-team-check/sw-team-check.component';
+import { MatInputModule } from '@angular/material/input';
+import { MatFormFieldModule } from '@angular/material/form-field';
+
 
 @NgModule({
   declarations: [
@@ -25,6 +28,8 @@ import { SwTeamCheckComponent } from './sw-team-check/sw-team-check.component';
     , MatCardModule
     , MatButtonModule
     , MatCheckboxModule
+    , MatInputModule
+    , MatFormFieldModule
   ],
   providers: [],
   bootstrap: [AppComponent]

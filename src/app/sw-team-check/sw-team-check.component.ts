@@ -39,7 +39,7 @@ export class SwTeamCheckComponent {
       this.result = ("You chose poorly!");
     }
 
-    this.userInput = "";
+    // this.userInput = "";
 
     };
 
